@@ -1,0 +1,55 @@
+body{
+background-image: linear-gradient(to right top, #92b7f0, #6f8bcc, #5161a7, #373981, #20105b);
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-position: center;
+font-family: 'Abel', sans-serif;
+}
+.App{
+  background-color: #281B57;
+  min-height: 500px;
+  width: 350px;
+  margin: 90px auto;
+  border-radius: 7px;
+}
+.TodoForm input {
+  background-image: linear-gradient(to right, #322a81, #0066ca, #009ad7, #00c79e, #12eb2e);
+  border: 0;
+  width: 300px;
+  height: 50px;
+  padding: 0 15px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  font-size: 18px;
+  font-weight: 500;
+}
+.TodoForm input::placeholder{
+  color:#ffff;
+  text-transform: uppercase;
+}
+.TodoForm input:focus{
+  outline: none;
+}
+.TodoForm button{
+  height: 50px;
+  width: 50px;
+  background-color: #12eb2e;
+  cursor: pointer;
+  border: 0;
+  font-weight: bold;
+  color:#ffff;
+  border: 0;
+  position: absolute;
+  margin-top: 15px;
+}
+.TodoForm button:focus{
+  outline:none;
+}
+.fa-plus-square {
+  font-size: 35px;
+  color: #ffff;
+}
+.fa-plus-square:hover {
+  font-size: 35px;
+  color: rgb(53, 37, 117);
+}

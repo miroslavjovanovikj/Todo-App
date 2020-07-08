@@ -1,0 +1,47 @@
+.List{
+  border:1px solid white;
+  width:350px;
+  margin: 0 auto;
+ border-left: 0;
+ border-right: 0;
+}
+.ListItems{
+  color:#ffff;
+  width: 250px;
+  margin-left: 25px;
+  border-radius: 5px;
+}
+.ListItems p{
+  padding-top: 8px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.textItem input{
+  background-image: none;
+  background-color: #281B57;
+  font-size: 21px;
+  height: 20px;
+  margin-top: 5px;
+  color:rgb(171, 168, 191);
+}
+.Trash-Icon{
+  float: right;
+  text-align: center;
+  font-size: 17px;
+  margin-top: 7px;
+  color: rgba(225, 223, 231, 0.61);
+  padding: 7px;
+  cursor: pointer;
+}
+.Trash-Icon:hover{
+  float: right;
+  text-align: center;
+  font-size: 17px;
+  margin-top: 7px;
+  color: rgba(209, 43, 21, 0.85);
+  padding: 7px;
+  cursor: pointer;
+}
+.itemText::first-letter{
+  text-transform: uppercase;
+}
