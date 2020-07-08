@@ -18,10 +18,8 @@ function ListItems(props){
           />
         </p>
       </div>
-      <div className="col-xs-3">
-          <span className="Trash-Icon "><i className="fas fa-highlighter"></i></span>
-      </div>
-      <div className="col-xs-3">
+
+      <div className="col-xs-6">
           <span onClick={()=>props.deleteItem(item.id)} className="Trash-Icon ">
             <i className="fas fa-trash-alt"></i>
           </span>

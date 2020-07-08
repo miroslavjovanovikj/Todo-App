@@ -27,10 +27,11 @@
 .Trash-Icon{
   float: right;
   text-align: center;
-  font-size: 17px;
+  font-size: 19px;
   margin-top: 7px;
   color: rgba(225, 223, 231, 0.61);
   padding: 7px;
+  margin-left: 25px;
   cursor: pointer;
 }
 .Trash-Icon:hover{
