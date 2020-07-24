@@ -13,7 +13,7 @@ font-family: 'Abel', sans-serif;
   border-radius: 7px;
 }
 .TodoForm input {
-  background-image: linear-gradient(to right, #322a81, #0066ca, #009ad7, #00c79e, #12eb2e);
+  background-image: rgb(12, 164, 15);
   border: 0;
   width: 300px;
   height: 50px;
